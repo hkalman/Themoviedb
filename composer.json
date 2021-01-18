@@ -1,0 +1,19 @@
+{
+    "name": "hkalman/themoviedb",
+    "type": "library",
+    "description": "TheMovieDB.org REST API package",
+    "keywords": ["themoviedb.org"],
+    "homepage": "https://example.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kalman Holes",
+            "email": "kalman.holes@gmail.com",
+            "homepage": "http://example.com",
+            "role": "Developer"
+        }
+    ]   ,
+    "autoload": {
+        "psr-4": {"hkalman\\Themoviedb\\": "src/"}
+    }
+}
